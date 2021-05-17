@@ -1,9 +1,17 @@
 # qb-gangs
-Gangs for QB-Core with Gang Support instead of Jobs, supports infinately scaling gangs. Super optimised down to 0.01ms with a gang, 0.00ms as a civilian.
+Gangs for QB-Core with Gang Support instead of Jobs, supports infinately scaling gangs. Super optimised down to 0.01ms idle with a gang peaking at 0.04ms when drawing or inside of a territory zone, 0.00ms at idle as a civilian.
 
 # Features:
 
 Each gang has a stash and a list of vehicles they can get out from their garage. Config is fully customisable for each gang.
+
+### New Version 2.5 Territories Update  _to be written_
+
+This update brings gang territories to the map using PolyZones and server side calculations to provide synchronized gang turfs to fight over.
+
+### New Version 2.4 Gang Boss Update
+
+Gang bosses can now be configured in `shared/leaders.lua` and they can hire/fire new recruit.s
 
 ### New Version 2.3 In-Game Gang Configurator
 
