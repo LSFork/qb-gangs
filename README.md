@@ -1,4 +1,4 @@
-# qb-gangs
+# 🔪🔫 **qb-gangs**
 Gangs for QB-Core with Gang Support instead of Jobs, supports infinately scaling gangs. Super optimised down to 0.01ms idle with a gang peaking at 0.04ms when drawing or inside of a territory zone, 0.00ms at idle as a civilian.
 
 # Features:
