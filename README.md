@@ -1,4 +1,4 @@
-# 🔪🔫 **qb-gangs**
+# 🔪 **qb-gangs**
 Gangs for QB-Core with Gang Support instead of Jobs, supports infinately scaling gangs. Super optimised down to 0.01ms idle with a gang peaking at 0.04ms when drawing or inside of a territory zone, 0.00ms at idle as a civilian.
 
 # Features:
@@ -7,19 +7,26 @@ Each gang has a stash and a list of vehicles they can get out from their garage.
 
 # Changelog
 
-### New Version 2.5 Territories Update -  _to be written_
+<details open>
+<summary> <b>New Version 2.5 Territories Update </b> -  _to be written_ </summary> <br>
 
-- This update brings gang territories to the map using PolyZones and server side calculations to provide synchronized gang turfs to fight over.
+This update brings gang territories to the map using PolyZones and server side calculations to provide synchronized gang turfs to fight over.
+</details>
 
-### New Version 2.4 Gang Boss Update
+<details>
+<summary> <b>New Version 2.4 Gang Boss Update </b> </summary> <br>
 
-- Gang bosses can now be configured in `shared/leaders.lua` and they can hire/fire new recruit.s
+- Gang bosses can now be configured in `shared/leaders.lua` and they can hire/fire new members
+</details>
 
-### New Version 2.3 In-Game Gang Configurator
+<details>
+<summary> <b> New Version 2.3 In-Game Gang Configurator </b> </summary> <br>
 
 - To begin creating a gang use `/creategang [name] [description]` to start the process, use `/placestash` to place the gang stash and `/placegarage` to place the gang garage using the In-Game configurator to chose the gang colours and vehicle list, when you have placed both you can use `/finishgang` to complete it or use `/cancelgang` at any time to abort the process.
 
 ![Preview](https://i.imgur.com/vVr0n0W.jpg)
+
+</details>
 
 # Installation
 Add Gangs into qb-core/shared.lua like this:
